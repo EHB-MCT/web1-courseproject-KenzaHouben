@@ -52,6 +52,42 @@ body {
 
 /*Einde van hamburger menu*/
 
+/* Homepage begin */
+.index-body {
+	margin: 0;
+	background-color: #f1e6d2;
+}
+
+.index-body header {
+	font-family: "Libre Baskerville";
+}
+
+.introductie-tekst h1,
+p {
+	text-align: center;
+	padding: 0 40px 0 40px;
+}
+
+.index-body h1 {
+	font-size: 20px;
+}
+
+.bilbo-picture {
+}
+
+.index-body p {
+	font-size: 10px;
+}
+/* Homepage end */
+
+/* Skills page begin */
+
+/* Skills page end */
+
+/* Experience page begin */
+
+/* Experience page end */
+
 @media (min-width: 480px) {
 	.topnav a {
 		display: inline-block;

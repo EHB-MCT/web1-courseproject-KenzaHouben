@@ -56,15 +56,12 @@ body {
 .index-body {
 	margin: 0;
 	background-color: #f1e6d2;
-}
-
-.index-body header {
+	text-align: center;
 	font-family: "Libre Baskerville";
 }
 
 .introductie-tekst h1,
 p {
-	text-align: center;
 	padding: 0 40px 0 40px;
 }
 
@@ -72,10 +69,27 @@ p {
 	font-size: 20px;
 }
 
-.bilbo-picture {
+.index-body img {
+	width: 80%;
 }
 
 .index-body p {
+	font-size: 10px;
+}
+
+.index-body .wrapper h2 {
+	font-size: 15px;
+}
+
+.index-body .wrapper p {
+	font-size: 10px;
+}
+
+.item h3 {
+	font-size: 12px;
+}
+
+.item p {
 	font-size: 10px;
 }
 /* Homepage end */

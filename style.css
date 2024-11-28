@@ -133,6 +133,10 @@ p {
 	font-family: "Libre Baskerville";
 	font-size: 20px;
 }
+
+.experience-body p {
+	font-size: 10px;
+}
 /* Experience page end */
 
 /* Computer versie */

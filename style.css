@@ -86,21 +86,21 @@ p {
 	font-size: 10px;
 }
 
-.item h3 {
+.index-body .item h3 {
 	font-family: "Libre Baskerville";
 	font-size: 12px;
 }
 
-.item p {
+.index-body .item p {
 	font-size: 10px;
 }
 
-.item2 h3 {
+.index-body .item2 h3 {
 	font-family: "Libre Baskerville";
 	font-size: 12px;
 }
 
-.item2 p {
+.index-body .item2 p {
 	font-size: 10px;
 }
 /* Homepage end */

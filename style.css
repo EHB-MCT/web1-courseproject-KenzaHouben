@@ -110,7 +110,15 @@ p {
 	margin: 0;
 	background-color: #f1e6d2;
 	text-align: center;
+}
+
+.skills-body h1 {
 	font-family: "Libre Baskerville";
+	font-size: 20px;
+}
+
+.skills-body p {
+	font-size: 12px;
 }
 /* Skills page end */
 

@@ -127,7 +127,11 @@ p {
 	margin: 0;
 	background-color: #f1e6d2;
 	text-align: center;
+}
+
+.experience-body h1 {
 	font-family: "Libre Baskerville";
+	font-size: 20px;
 }
 /* Experience page end */
 

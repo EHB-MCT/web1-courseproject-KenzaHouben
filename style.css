@@ -92,14 +92,32 @@ p {
 .item p {
 	font-size: 10px;
 }
+
+.item2 h3 {
+	font-size: 12px;
+}
+
+.item2 p {
+	font-size: 10px;
+}
 /* Homepage end */
 
 /* Skills page begin */
-
+.skills-body {
+	margin: 0;
+	background-color: #f1e6d2;
+	text-align: center;
+	font-family: "Libre Baskerville";
+}
 /* Skills page end */
 
 /* Experience page begin */
-
+.experience-body {
+	margin: 0;
+	background-color: #f1e6d2;
+	text-align: center;
+	font-family: "Libre Baskerville";
+}
 /* Experience page end */
 
 @media (min-width: 480px) {

@@ -156,22 +156,22 @@ p {
 }
 /* Skills page end */
 
-/* Experience page begin */
-.experience-body {
+/* Adventures page begin */
+.adventures-body {
 	margin: 0;
 	background-color: #e7d9bd;
 	text-align: center;
 }
 
-.experience-body h1 {
+.adventures-body h1 {
 	font-family: "Libre Baskerville";
 	font-size: 20px;
 }
 
-.experience-body p {
+.adventures-body p {
 	font-size: 10px;
 }
-/* Experience page end */
+/* Adventures page end */
 
 /* Footer begin*/
 .footer a {

@@ -181,7 +181,6 @@ p {
 }
 
 /* Footer begin*/
-
 .footer a {
 	font-size: 20px;
 	line-height: 26px;
@@ -212,6 +211,10 @@ p {
 	font-family: "Libre Baskerville";
 	padding-top: 10px;
 	font-size: 18px;
+}
+
+.footer p {
+	font-size: 12px;
 }
 
 .footer .wrapper {

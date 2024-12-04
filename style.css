@@ -118,7 +118,7 @@ p {
 }
 
 .skills-body p {
-	font-size: 12px;
+	font-size: 10px;
 }
 /* Skills page end */
 
@@ -137,6 +137,11 @@ p {
 .experience-body p {
 	font-size: 10px;
 }
+
+.bilbo-sword-pic {
+	width: 50%;
+}
+
 /* Experience page end */
 
 /* Computer versie */

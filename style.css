@@ -49,7 +49,6 @@ body {
 	background-color: #a19131;
 	color: white;
 }
-
 /*Einde van hamburger menu*/
 
 /* Homepage begin */
@@ -172,13 +171,7 @@ p {
 .experience-body p {
 	font-size: 10px;
 }
-
 /* Experience page end */
-
-/* Over alle pagina's */
-/* .item {
-	margin-bottom: 30px;
-}
 
 /* Footer begin*/
 .footer a {
@@ -222,13 +215,6 @@ p {
 }
 /*Footer end*/
 
-/*Over alle pagina's*/
-/* .item img {
-	margin-bottom: 10px;
-} */
-
-/* Over alle pagina's */
-
 /* Computer versie */
 @media (min-width: 480px) {
 	.topnav a {
@@ -244,3 +230,10 @@ p {
 		display: none;
 	}
 }
+
+/*Over alle pagina's*/
+/* .item img {
+	margin-bottom: 10px;
+} */
+
+/* Over alle pagina's */

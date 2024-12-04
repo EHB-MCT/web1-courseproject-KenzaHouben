@@ -167,13 +167,23 @@ p {
 	text-align: center;
 }
 
+.adventures-body img {
+	width: 80%;
+}
+
 .adventures-body h1 {
 	font-family: "Libre Baskerville";
 	font-size: 20px;
 }
 
 .adventures-body p {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-size: 10px;
+}
+
+.orc-army-pic {
+	vertical-align: middle;
 }
 /* Adventures page end */
 
@@ -234,10 +244,3 @@ p {
 		display: none;
 	}
 }
-
-/*Over alle pagina's*/
-/* .item img {
-	margin-bottom: 10px;
-} */
-
-/* Over alle pagina's */

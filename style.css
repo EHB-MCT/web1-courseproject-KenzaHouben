@@ -55,16 +55,15 @@ body {
 /* Homepage begin */
 .index-body {
 	margin: 0;
-	background-color: #f1e6d2;
 	text-align: center;
 }
 
 .index-body header {
-	background-color: blue;
+	background-color: #f1e6d2;
 }
 
 .index-body .wrapper {
-	background-color: yellow;
+	background-color: #e7d9bd;
 }
 
 .introductie-tekst h1,
@@ -75,21 +74,23 @@ p {
 }
 
 .index-body h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 20px;
-}
-
-.index-body img {
-	width: 80%;
 }
 
 .index-body p {
 	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 .index-body .wrapper h2 {
 	font-family: "Libre Baskerville";
 	font-size: 15px;
 	margin: 0;
+	padding-top: 10px;
+	margin-bottom: 10px;
 }
 
 .index-body .wrapper p {
@@ -98,7 +99,7 @@ p {
 
 .index-body .item h3 {
 	font-family: "Libre Baskerville";
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .index-body .item p {
@@ -107,11 +108,23 @@ p {
 
 .index-body .item2 h3 {
 	font-family: "Libre Baskerville";
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .index-body .item2 p {
 	font-size: 10px;
+}
+
+.index-body img {
+	width: 80%;
+}
+
+.index-body .item {
+	margin-bottom: 10px;
+}
+
+.index-body .item2 {
+	padding-bottom: 10px;
 }
 /* Homepage end */
 
@@ -129,6 +142,10 @@ p {
 
 .skills-body p {
 	font-size: 10px;
+}
+
+.bilbo-sword-pic {
+	width: 50%;
 }
 /* Skills page end */
 
@@ -148,11 +165,17 @@ p {
 	font-size: 10px;
 }
 
-.bilbo-sword-pic {
-	width: 50%;
+/* Experience page end */
+
+/* Over alle pagina's */
+/* .item {
+	margin-bottom: 30px;
 }
 
-/* Experience page end */
+.item img {
+	margin-bottom: 10px;
+} */
+/* Over alle pagina's */
 
 /* Computer versie */
 @media (min-width: 480px) {

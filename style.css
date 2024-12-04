@@ -134,6 +134,10 @@ p {
 	text-align: center;
 }
 
+.skills-body img {
+	width: 80%;
+}
+
 .skills-body h1 {
 	font-size: 20px;
 	margin-bottom: 10px;

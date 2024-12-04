@@ -59,10 +59,19 @@ body {
 	text-align: center;
 }
 
+.index-body header {
+	background-color: blue;
+}
+
+.index-body .wrapper {
+	background-color: yellow;
+}
+
 .introductie-tekst h1,
 p {
 	font-family: "Libre Baskerville";
 	padding: 0 40px 0 40px;
+	margin: 0;
 }
 
 .index-body h1 {
@@ -80,6 +89,7 @@ p {
 .index-body .wrapper h2 {
 	font-family: "Libre Baskerville";
 	font-size: 15px;
+	margin: 0;
 }
 
 .index-body .wrapper p {

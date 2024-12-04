@@ -131,17 +131,25 @@ p {
 /* Skills page begin */
 .skills-body {
 	margin: 0;
-	background-color: #f1e6d2;
+	background-color: #e7d9bd;
 	text-align: center;
 }
 
 .skills-body h1 {
-	font-family: "Libre Baskerville";
 	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "Libre Baskerville";
+}
+
+.skills-body h2 {
+	font-family: "Libre Baskerville";
+	font-size: 14px;
 }
 
 .skills-body p {
 	font-size: 10px;
+	margin-top: 5px;
+	padding-bottom: 10px;
 }
 
 .bilbo-sword-pic {
@@ -152,7 +160,7 @@ p {
 /* Experience page begin */
 .experience-body {
 	margin: 0;
-	background-color: #f1e6d2;
+	background-color: #e7d9bd;
 	text-align: center;
 }
 
@@ -172,9 +180,50 @@ p {
 	margin-bottom: 30px;
 }
 
-.item img {
+/* Footer begin*/
+
+.footer a {
+	font-size: 20px;
+	line-height: 26px;
+	padding: 15px;
+	border-radius: 3px;
+	text-decoration: 3px;
+	color: black;
+	background-color: #fff;
+	margin-bottom: 10px;
+	font-family: "Libre Baskerville";
+	/*mobile version*/
+	display: block;
+}
+
+.footer a:hover {
+	background-color: #d3debc;
+}
+
+.footer {
+	display: inline-block;
+	width: calc(100% - 120px);
+	background-color: #c9b18a;
+	text-align: center;
+	padding: 0 60px 20px 60px;
+}
+
+.footer h4 {
+	font-family: "Libre Baskerville";
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.footer .wrapper {
+	background-color: blanchedalmond;
+}
+/*Footer end*/
+
+/*Over alle pagina's*/
+/* .item img {
 	margin-bottom: 10px;
 } */
+
 /* Over alle pagina's */
 
 /* Computer versie */

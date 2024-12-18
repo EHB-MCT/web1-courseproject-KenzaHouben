@@ -334,6 +334,31 @@ p {
 		width: 50%;
 	}
 
+	.adventures-body h1 {
+		font-size: 45px;
+	}
+
+	.adventures-body p {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display: table;
+		margin: auto;
+		font-size: 18px;
+		inline-size: 1500px;
+	}
+
+	.adventures-body .bilbo-adventure-pic {
+		width: 55%;
+	}
+
+	.adventures-body .smaug-pic {
+		width: 50%;
+	}
+
+	.adventures-body .orc-army-pic {
+		width: 55%;
+	}
+
 	.footer h4 {
 		font-size: 30px;
 	}

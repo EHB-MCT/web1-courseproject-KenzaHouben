@@ -199,7 +199,7 @@ p {
 	margin-bottom: 10px;
 	font-family: "Libre Baskerville";
 	/*mobile version*/
-	display: block;
+	display: inline-block;
 }
 
 .footer a:hover {
@@ -298,4 +298,12 @@ p {
 	.information div:nth-child(4) {
 		order: 4;
 	} */
+
+	.footer h4 {
+		font-size: 30px;
+	}
+	.footer p {
+		font-size: 20px;
+		padding-bottom: 30px;
+	}
 }

@@ -299,6 +299,41 @@ p {
 		order: 4;
 	} */
 
+	.skills-body h1 {
+		font-size: 45px;
+	}
+
+	.skills-body h2 {
+		font-size: 23px;
+	}
+
+	.skills-body p {
+		display: table;
+		margin: auto;
+		font-size: 18px;
+		inline-size: 1000px;
+	}
+
+	.skills-body .bilbo-gandalf-pic {
+		padding-top: 20px;
+		width: 55%;
+	}
+
+	.skills-body .bilbo-contract-pic {
+		padding-top: 20px;
+		width: 55%;
+	}
+
+	.skills-body .bilbo-sword-pic {
+		padding-top: 20px;
+		width: 55%;
+	}
+
+	.skills-body .bilbo-gollum-pic {
+		padding-top: 20px;
+		width: 50%;
+	}
+
 	.footer h4 {
 		font-size: 30px;
 	}

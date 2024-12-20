@@ -51,6 +51,14 @@ body {
 }
 /*Einde van hamburger menu*/
 
+/* Algemene zaken */
+p {
+	line-height: 15px;
+	font-size: 12px;
+}
+
+/* Algemene zaken einde */
+
 /* Homepage begin */
 .index-body {
 	margin: 0;
@@ -73,27 +81,23 @@ p {
 }
 
 .index-body h1 {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 	font-size: 20px;
 }
 
 .index-body p {
-	font-size: 10px;
-	padding-top: 5px;
-	padding-bottom: 10px;
+	padding-top: 8px;
+	padding-bottom: 15px;
 }
 
 .index-body .wrapper h2 {
 	font-family: "Libre Baskerville";
 	font-size: 15px;
 	margin: 0;
-	padding-top: 10px;
+	padding-top: 25px;
+	padding-bottom: 15px;
 	margin-bottom: 10px;
-}
-
-.index-body .wrapper p {
-	font-size: 10px;
 }
 
 .index-body .item h3 {
@@ -101,17 +105,13 @@ p {
 	font-size: 14px;
 }
 
-.index-body .item p {
-	font-size: 10px;
-}
-
 .index-body .item2 h3 {
 	font-family: "Libre Baskerville";
 	font-size: 14px;
 }
 
-.index-body .item2 p {
-	font-size: 10px;
+.item2 p {
+	padding-bottom: 20px;
 }
 
 .index-body img {
@@ -150,7 +150,6 @@ p {
 }
 
 .skills-body p {
-	font-size: 10px;
 	margin-top: 5px;
 	padding-bottom: 10px;
 }
@@ -179,7 +178,6 @@ p {
 .adventures-body p {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 10px;
 }
 
 .orc-army-pic {

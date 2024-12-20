@@ -333,7 +333,11 @@ p {
 	}
 
 	.item .frodo-pic {
-		width: 30%;
+		width: 60%;
+	}
+
+	.item .bilbo-dwarves-pic {
+		width: 60%;
 	}
 
 	.information {
@@ -351,14 +355,6 @@ p {
 
 	.information .flip div:nth-child(2) {
 		order: 1;
-	}
-
-	.information .flip2 div:nth-child(3) {
-		order: 4;
-	}
-
-	.information .flip2 div:nth-child(4) {
-		order: 3;
 	}
 
 	.index-body .item2 h2 {

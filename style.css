@@ -231,6 +231,9 @@ p {
 
 /* Computer versie */
 @media (min-width: 480px) {
+	.topnav {
+		text-align: left;
+	}
 	.topnav a {
 		display: inline-block;
 	}
@@ -248,16 +251,40 @@ p {
 		font-size: 45px;
 	}
 
-	/* .index-body h2 {
-		font-size: 45px;
-	} */
-
-	.header-wrapper p {
-		font-size: 18px;
+	.index-body .header-wrapper p {
+		padding-bottom: 15px;
+		font-size: 25px;
 	}
 
-	.index-body .bilbo-pic {
-		width: 30%;
+	.flex {
+		display: flex;
+		align-items: center;
+	}
+
+	.flex div {
+		flex: 1;
+	}
+
+	.flex .text {
+		text-align: left;
+	}
+
+	.flex div img {
+		width: 70%;
+	}
+
+	.index-body .wrapper h2 {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-size: 25px;
+	}
+
+	.index-body .wrapper h3 {
+		font-size: 20px;
+	}
+
+	.index-body .wrapper p {
+		font-size: 12px;
 	}
 
 	.index-body .hobbit-house-pic {
@@ -276,32 +303,83 @@ p {
 		width: 30%;
 	}
 
-	/* 
-	.information {
+	.item {
 		display: flex;
-		flex-wrap: wrap;
 		align-items: center;
 	}
 
+	.item .hobbit-house-pic {
+		width: 60%;
+	}
+
+	.item .text2 p {
+		font-size: 14px;
+	}
+
+	.item .text3 p {
+		font-size: 14px;
+	}
+
+	.item .text4 p {
+		font-size: 14px;
+	}
+
+	.item .text5 p {
+		font-size: 14px;
+	}
+
+	.item .pipe-pic {
+		width: 60%;
+	}
+
+	.item .frodo-pic {
+		width: 30%;
+	}
+
+	.information {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	.information div {
-		width: 50%;
+		width: 100%;
 	}
 
-	.information div:nth-child(1) {
-		order: 1;
-	}
-
-	.information div:nth-child(2) {
+	.information .flip div:nth-child(1) {
 		order: 2;
 	}
 
-	.information div:nth-child(3) {
+	.information .flip div:nth-child(2) {
+		order: 1;
+	}
+
+	.information .flip2 div:nth-child(3) {
+		order: 4;
+	}
+
+	.information .flip2 div:nth-child(4) {
 		order: 3;
 	}
 
-	.information div:nth-child(4) {
-		order: 4;
-	} */
+	.index-body .item2 h2 {
+		font-size: 25px;
+	}
+
+	.index-body .item2 h3 {
+		font-size: 20px;
+	}
+
+	.item2 .bilbo-food-pic {
+		width: 65%;
+	}
+
+	.wrapper .item2 h3 {
+		font-size: 23px;
+	}
+
+	.wrapper .item2 p {
+		font-size: 14px;
+	}
 
 	.skills-body h1 {
 		font-size: 45px;

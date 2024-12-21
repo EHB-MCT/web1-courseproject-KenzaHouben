@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Libre Baskerville";
 }
 
 /*Begin van hamburger menu*/
@@ -53,7 +53,7 @@ body {
 
 /* Algemene zaken */
 p {
-	line-height: 15px;
+	line-height: 17px;
 	font-size: 12px;
 }
 
@@ -83,7 +83,7 @@ p {
 .index-body h1 {
 	padding-top: 20px;
 	padding-bottom: 15px;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .index-body p {
@@ -91,27 +91,17 @@ p {
 	padding-bottom: 15px;
 }
 
-.index-body .wrapper h2 {
+.index-body .wrapper .informatie-Bilbo h2 {
 	font-family: "Libre Baskerville";
-	font-size: 15px;
+	font-size: 22px;
 	margin: 0;
-	padding-top: 25px;
-	padding-bottom: 15px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	margin-bottom: 10px;
 }
 
 .index-body .item h3 {
-	font-family: "Libre Baskerville";
-	font-size: 14px;
-}
-
-.index-body .item2 h3 {
-	font-family: "Libre Baskerville";
-	font-size: 14px;
-}
-
-.item2 p {
-	padding-bottom: 20px;
+	font-size: 20px;
 }
 
 .index-body img {
@@ -123,7 +113,12 @@ p {
 }
 
 .index-body .item2 {
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+.index-body .wrapper .item2 h3 {
+	font-size: 20px;
 }
 /* Homepage end */
 
@@ -139,19 +134,21 @@ p {
 }
 
 .skills-body h1 {
-	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 26px;
 	margin-bottom: 10px;
 	font-family: "Libre Baskerville";
 }
 
 .skills-body h2 {
 	font-family: "Libre Baskerville";
-	font-size: 14px;
+	font-size: 20px;
 }
 
-.skills-body p {
+.skills-body .wrapper .itemSkills p {
 	margin-top: 5px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 }
 
 .bilbo-sword-pic {
@@ -175,13 +172,16 @@ p {
 	font-size: 20px;
 }
 
-.adventures-body p {
+.adventures-body .wrapper p {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .orc-army-pic {
-	vertical-align: middle;
+	/* vertical-align: middle; */
+	padding-bottom: 30px;
 }
 /* Adventures page end */
 
@@ -249,9 +249,10 @@ p {
 		font-size: 45px;
 	}
 
-	.index-body .header-wrapper p {
+	.index-body .header-wrapper .introductie-tekst p {
 		padding-bottom: 15px;
-		font-size: 25px;
+		font-size: 20px;
+		line-height: 24px;
 	}
 
 	.flex {
@@ -281,10 +282,6 @@ p {
 		font-size: 20px;
 	}
 
-	.index-body .wrapper p {
-		font-size: 12px;
-	}
-
 	.index-body .hobbit-house-pic {
 		width: 30%;
 	}
@@ -310,20 +307,9 @@ p {
 		width: 60%;
 	}
 
-	.item .text2 p {
-		font-size: 14px;
-	}
-
-	.item .text3 p {
-		font-size: 14px;
-	}
-
-	.item .text4 p {
-		font-size: 14px;
-	}
-
-	.item .text5 p {
-		font-size: 14px;
+	p {
+		line-height: 20px;
+		font-size: 18px;
 	}
 
 	.item .pipe-pic {
@@ -355,11 +341,11 @@ p {
 		order: 1;
 	}
 
-	.index-body .item2 h2 {
+	.index-body h2 {
 		font-size: 25px;
 	}
 
-	.index-body .item2 h3 {
+	.index-body h3 {
 		font-size: 20px;
 	}
 
@@ -367,12 +353,8 @@ p {
 		width: 65%;
 	}
 
-	.wrapper .item2 h3 {
+	.wrapper h3 {
 		font-size: 23px;
-	}
-
-	.wrapper .item2 p {
-		font-size: 14px;
 	}
 
 	.skills-body h1 {
@@ -386,7 +368,6 @@ p {
 	.skills-body p {
 		display: table;
 		margin: auto;
-		font-size: 18px;
 		inline-size: 1000px;
 	}
 
@@ -417,10 +398,10 @@ p {
 	.adventures-body p {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		display: table;
-		margin: auto;
-		font-size: 18px;
-		inline-size: 1500px;
+	}
+
+	.adventures-body .itemSkills {
+		padding-bottom: 20px;
 	}
 
 	.adventures-body .bilbo-adventure-pic {
